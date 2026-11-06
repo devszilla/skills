@@ -22,7 +22,7 @@ Before finalizing any sentence, simulate reading it aloud. If a sentence causes 
 Avoid repeating the same morphological root or prefix within a single clause or sentence:
 - **Red flag:** "A **re**run after a **re**load now also **re**runs the sections it **re**ads from."
 - **Root cause:** Clustering noun/verb homonyms (*rerun* / *reruns*) and prefix repeats (*re-*).
-- **Fix:** Replace redundant stems with distinct operational verbs (*re-executes*, *refreshes*, *fetches*, *reads from*).
+- **Fix:** Replace redundant stems with distinct operational verbs (*runs again*, *updates*, *fetches*, *reads from*).
 
 ### 3. Decompress Clause Stacking
 AI models often try to pack four variables into one breath:
@@ -40,7 +40,7 @@ When scanning drafts, check for these three specific failure modes:
 | :--- | :--- | :--- |
 | **Stem Clustering** | 3+ words sharing prefixes (*re-*, *de-*, *un-*) or roots in < 15 words | Swap 1-2 words for clean synonyms. |
 | **Noun/Verb Echoing** | Using the exact same word as both subject and verb (*"A rerun... reruns"*) | Convert the subject to a gerund or change the action verb. |
-| **Alliterative Jam** | Unintentional strings of similar plosives or liquids (*r*, *p*, *s*, *l*) | Read rhythmically; introduce contrasting consonant sounds. |
+| **Alliterative Jam** | Unintentional strings of similar plosives, liquids or sibilants (*p*, *r*, *l*, *s*) | Read rhythmically; introduce contrasting consonant sounds. |
 
 ## Quick Transformation Patterns
 
@@ -50,4 +50,4 @@ When scanning drafts, check for these three specific failure modes:
 
 - **State machine / reactive pattern:**
   - *Draft:* "A rerun after a reload now also reruns the sections it reads from."
-  - *Fix:* "Rerunning after a reload now re-executes all upstream input sections."
+  - *Fix:* "After a reload, running again now updates every upstream input section."
