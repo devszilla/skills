@@ -1,6 +1,6 @@
 # Skills
 
-Agent skills I write while building software. Each skill is a folder with a `SKILL.md` file in the [Agent Skills](https://agentskills.io) format, so it works in Claude Code, Codex, Cursor and other agents that read that format.
+Agent skills for software development. Each skill is a folder with a `SKILL.md` file in the [Agent Skills](https://agentskills.io) format, so it works in Claude Code, Codex, Cursor and other agents that read that format.
 
 ## Skills
 
@@ -14,10 +14,10 @@ Agent skills I write while building software. Each skill is a folder with a `SKI
 
 ```
 /plugin marketplace add devszilla/skills
-/plugin install writing@caleb-skills
+/plugin install writing@devszilla
 ```
 
-Each category is one plugin. Claude Code installs a whole category, not single skills. To get new skills after an update, run `/plugin marketplace update caleb-skills`.
+Each category is one plugin. Claude Code installs a whole category, not single skills. To get new skills after an update, run `/plugin marketplace update devszilla`.
 
 ### Other agents
 

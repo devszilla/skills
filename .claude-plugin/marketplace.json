@@ -1,9 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "caleb-skills",
+  "name": "devszilla",
   "description": "Agent skills for software development, with one plugin per category.",
   "owner": {
-    "name": "Caleb Moore"
+    "name": "devszilla"
   },
   "plugins": [
     {
