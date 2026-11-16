@@ -34,13 +34,14 @@ Decompress into **Cause -> Effect** or separate the trigger from the outcome:
 
 ## Review Checklist
 
-When scanning drafts, check for these three specific failure modes:
+When scanning drafts, check for these four specific failure modes:
 
 | Failure Mode | Warning Signs | Correction Rule |
 | :--- | :--- | :--- |
 | **Stem Clustering** | 3+ words sharing prefixes (*re-*, *de-*, *un-*) or roots in < 15 words | Swap 1-2 words for clean synonyms. |
 | **Noun/Verb Echoing** | Using the exact same word as both subject and verb (*"A rerun... reruns"*) | Convert the subject to a gerund or change the action verb. |
 | **Alliterative Jam** | Unintentional strings of similar plosives, liquids or sibilants (*p*, *r*, *l*, *s*) | Read rhythmically; introduce contrasting consonant sounds. |
+| **Vague Placeholder Prose** | Generic nouns (*"each line"*, *"the item"*, *"it"*) and weak spatial verbs (*"comes from"*, *"goes to"*) | Replace placeholders with concrete domain terms and explicit relationship verbs (*"linked to"*, *"maps to"*). |
 
 ## Quick Transformation Patterns
 
@@ -51,3 +52,7 @@ When scanning drafts, check for these three specific failure modes:
 - **State machine / reactive pattern:**
   - *Draft:* "A rerun after a reload now also reruns the sections it reads from."
   - *Fix:* "After a reload, running again now updates every upstream input section."
+
+- **Placeholder prose pattern:**
+  - *Draft:* "Each line names the report section it came from."
+  - *Fix:* "N/llm report outcomes are directly linked to an account assessment section"
