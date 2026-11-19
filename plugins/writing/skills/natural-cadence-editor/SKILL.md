@@ -32,9 +32,12 @@ Decompress into **Cause -> Effect** or separate the trigger from the outcome:
 - **Compressed:** *"A rerun after a reload now also reruns the sections it reads from."*
 - **Decompressed:** *"When you reload and run again, dependent input sections are also refreshed."*
 
+### 4. Fewest Words
+People skim. Always pick the shortest version that still passes the Subvocalization Test. Cut filler (*in order to*, *currently*, *is able to*, *basically*) and words that repeat what the sentence already says. If a fix for another failure mode adds words, cut words elsewhere in the sentence.
+
 ## Review Checklist
 
-When scanning drafts, check for these four specific failure modes:
+When scanning drafts, check for these five specific failure modes:
 
 | Failure Mode | Warning Signs | Correction Rule |
 | :--- | :--- | :--- |
@@ -42,6 +45,7 @@ When scanning drafts, check for these four specific failure modes:
 | **Noun/Verb Echoing** | Using the exact same word as both subject and verb (*"A rerun... reruns"*) | Convert the subject to a gerund or change the action verb. |
 | **Alliterative Jam** | Unintentional strings of similar plosives, liquids or sibilants (*p*, *r*, *l*, *s*) | Read rhythmically; introduce contrasting consonant sounds. |
 | **Vague Placeholder Prose** | Generic nouns (*"each line"*, *"the item"*, *"it"*) and weak spatial verbs (*"comes from"*, *"goes to"*) | Replace placeholders with concrete domain terms and explicit relationship verbs (*"linked to"*, *"maps to"*). |
+| **Personified Objects** | Verbs that need a body or a mind, used on software: *holds*, *carries*, *grabs*, *sees*, *names*, *tells*, *asks*, *knows*, *wants*, *decides* | Drop the verb for a preposition or possessive (*"the role with the permission"*, *"the record's name field"*). If a verb is needed, use one a machine does: *has*, *stores*, *returns*, *sends*, *lists*. |
 
 ## Quick Transformation Patterns
 
@@ -56,3 +60,9 @@ When scanning drafts, check for these four specific failure modes:
 - **Placeholder prose pattern:**
   - *Draft:* "Each line names the report section it came from."
   - *Fix:* "N/llm report outcomes are directly linked to an account assessment section"
+
+- **Personified object pattern:**
+  - *Draft:* "Fixed the record page check, which read whichever tab was active instead of the NetSuite tab that asked."
+  - *Fix:* "Fixed the record page check, which was reading any active tab instead of the NetSuite tab making the request."
+  - *Draft:* "Assign the role that holds the permission."
+  - *Fix:* "Assign the role with the permission."
