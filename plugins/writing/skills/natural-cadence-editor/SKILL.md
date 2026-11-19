@@ -34,7 +34,7 @@ Decompress into **Cause -> Effect** or separate the trigger from the outcome:
 
 ## Review Checklist
 
-When scanning drafts, check for these four specific failure modes:
+When scanning drafts, check for these five specific failure modes:
 
 | Failure Mode | Warning Signs | Correction Rule |
 | :--- | :--- | :--- |
@@ -42,6 +42,7 @@ When scanning drafts, check for these four specific failure modes:
 | **Noun/Verb Echoing** | Using the exact same word as both subject and verb (*"A rerun... reruns"*) | Convert the subject to a gerund or change the action verb. |
 | **Alliterative Jam** | Unintentional strings of similar plosives, liquids or sibilants (*p*, *r*, *l*, *s*) | Read rhythmically; introduce contrasting consonant sounds. |
 | **Vague Placeholder Prose** | Generic nouns (*"each line"*, *"the item"*, *"it"*) and weak spatial verbs (*"comes from"*, *"goes to"*) | Replace placeholders with concrete domain terms and explicit relationship verbs (*"linked to"*, *"maps to"*). |
+| **Personified Objects** | Human verbs on software objects (*"the tab that asked"*, *"the server knows"*, *"the function wants"*) | Replace the human verb with the technical action (*"making the request"*, *"stores"*, *"requires"*). |
 
 ## Quick Transformation Patterns
 
@@ -56,3 +57,7 @@ When scanning drafts, check for these four specific failure modes:
 - **Placeholder prose pattern:**
   - *Draft:* "Each line names the report section it came from."
   - *Fix:* "N/llm report outcomes are directly linked to an account assessment section"
+
+- **Personified object pattern:**
+  - *Draft:* "Fixed the record page check, which read whichever tab was active instead of the NetSuite tab that asked."
+  - *Fix:* "Fixed the record page check, which was reading any active tab instead of the NetSuite tab making the request."
